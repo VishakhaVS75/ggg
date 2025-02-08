@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                bat 'java fact 8'
+                bat 'java fact.java  8'
             } 
         }
     }
